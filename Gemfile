@@ -8,7 +8,10 @@ gem 'pg', '0.17.1'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
         gem 'rspec-rails', '2.14.2'
-        gem 'guard-rspec'
+        gem 'guard-rspec', '4.2.9'
+        gem 'spork-rails', '4.0.0'
+        gem 'guard-spork', '1.5.1'
+        gem 'childprocess', '0.5.3'
 end
 group :test do
         gem 'selenium-webdriver', '2.41.0'
