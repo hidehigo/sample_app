@@ -5,6 +5,7 @@ ruby '2.1.1'
 gem 'rails', '4.1.0'
 gem 'bootstrap-sass', '3.1.1.1'
 gem 'sprockets', '2.11.0'
+gem 'bcrypt', '3.1.7'
 gem 'pg', '0.17.1'
 
 # Use sqlite3 as the database for Active Record
