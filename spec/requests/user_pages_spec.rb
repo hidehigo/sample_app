@@ -37,7 +37,6 @@ describe "UserPages" do
 			end
 
 			it "should create a user" do
-				pending("not done yet")
 				expect { click_button submit }.to change(User, :count).by(1)
 			end
 		end
